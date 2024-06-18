@@ -1,0 +1,84 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+}
+
+.button {
+    background-color: #3a89ff;
+    border: 2px solid #f5f5f5;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 1.5rem;
+    margin: 10px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #225aae;
+}
+
+.input-row {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    align-items: center;
+}
+
+.input-row label {
+    font-size: 1.5rem;
+    margin-right: 10px;
+}
+
+.input-row input {
+    border: 2px solid #f5f5f5;
+    border-radius: 5px;
+    font-size: 1rem;
+    padding: 10px;
+    text-align: center;
+    width: 100px;
+}
+
+.btn-clo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.btn-clo button {
+    border: 2px solid #f5f5f5;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 1.5rem;
+    margin: 10px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+    cursor: pointer;
+}
+
+.btn-blue {
+    background-color: #3a89ff;
+}
+
+.btn-blue:hover {
+    background-color: #225aae;
+}
+
+.btn-green {
+    background-color: #00b894;
+}
+
+.btn-green:hover {
+    background-color: #018d6a;
+}

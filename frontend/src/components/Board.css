@@ -1,0 +1,32 @@
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+}
+
+.board-layout {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    margin-top: 10px;
+}
+
+.btn-blue {
+    background-color: #3a89ff;
+    border: 2px solid #f5f5f5;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 1rem;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+    cursor: pointer;
+}
